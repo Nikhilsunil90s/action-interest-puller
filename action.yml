@@ -15,7 +15,8 @@ on:
 runs:
   using: 'node12'
   main: 'pullInterests.js'
-
+  
+  steps:
   - uses: stefanzweifel/git-auto-commit-action@v4
     with:
       commit_message: Apply HTML changes

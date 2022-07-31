@@ -2,6 +2,10 @@
 
 name: action-interests-puller
 description: This action pulls interests from HTML Page and Saves output into another HTML Page.
+
+branding: 
+  icon: 'activity'
+  color: 'green'
 # Controls when the workflow will run
 on:
   # Allows you to run this workflow manually from the Actions tab

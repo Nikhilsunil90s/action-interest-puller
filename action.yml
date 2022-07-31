@@ -6,6 +6,7 @@ description: This action pulls interests from HTML Page and Saves output into an
 branding: 
   icon: 'activity'
   color: 'green'
+
 # Controls when the workflow will run
 on:
   # Allows you to run this workflow manually from the Actions tab

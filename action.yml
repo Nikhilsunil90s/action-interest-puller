@@ -24,3 +24,7 @@ jobs:
         run: |
           npm install
           node pullInterests.js
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply & Save HTML Changes
